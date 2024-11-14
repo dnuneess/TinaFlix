@@ -1,56 +1,58 @@
 body {
-    color: yellow;
-    background: #232a61;
+    color: #edb4f5;
+    background: #7a2173;
     margin: 0px;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 100px;
 }
-
 header {
-    border-bottom: solid 2px #8ebdf8;
+    border-bottom: solid 2px #edb4f5;
     padding: 20px;
     font-size: 32px;
 }
-
 .chamada {
-    color: #232a61;
-    background: #8ebdf8;
+    color: #7a2173;
+    background: #edb4f5;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
 }
-
 .chamada-texto {
     margin-right: 5%;
 }
-
 h1{
     font-size: 40px;
 }
-
 p {
     font-size: 20px;
 }
-
 .categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
-
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
 }
-
 .categoria-videos img {
     opacity: 0.5;
     height: 200px;
 }
-
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 2px solid yellow
+    border: 2px solid #edb4f5;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.categoria-livros {
+    color: #7a2173;
+    background: #edb4f5;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
